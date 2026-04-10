@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VEINSCROLL - Official Movie Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header with Explore Button -->
+    <header class="header">
+        <div class="header-left">
+            <button class="explore-btn" id="exploreBtn">Explore</button>
+        </div>
+        <div class="header-center">
+            <div class="brand">VEINSCROLL</div>
+        </div>
+        <div class="header-right">
+        </div>
+    </header>
+
+    <!-- Explore Overlay -->
+    <div class="explore-overlay" id="exploreOverlay">
+        <div class="explore-content">
+            <button class="back-btn" id="backBtn">←</button>
+            
+            <!-- Tab Navigation -->
+            <div class="tab-nav">
+                <button class="tab-btn active" data-tab="description">Description</button>
+                <button class="tab-btn" data-tab="cast">Meet the Cast</button>
+                <button class="tab-btn" data-tab="collectives">VEINSCROLL Collectives</button>
+                <button class="tab-btn" data-tab="qa">Q&A</button>
+            </div>
+            
+            <!-- Tab Content -->
+            <div class="tab-content">
+                <div class="tab-pane active" id="description-tab">
+                    <div class="content-card">
+                        <h3>Description</h3>
+                        <p>A chilling tale of modern horror where an invisible creature controls society through phone addiction. When a determined reporter uncovers the terrifying secret behind Veinscroll, she must risk everything to reveal the truth before it consumes humanity.</p>
+                    </div>
+                </div>
+                <div class="tab-pane" id="cast-tab">
+                    <div class="content-card">
+                        <h3>Meet the Cast</h3>
+                        <div class="cast-layout">
+                            <div class="cast-image">
+                                <img src="CAST1.jpg" alt="Cailee Spaeny">
+                            </div>
+                            <div class="cast-info">
+                                <h4>Cailee Spaeny</h4>
+                                <p>Plays the role of a determined reporter who uncovers the terrifying secret behind Veinscroll. Brave and curious, she dives deep into the story, risking her own safety to reveal the truth about the invisible creature controlling society through phone addiction.</p>
+                            </div>
+                        </div>
+                        <div class="cast-layout">
+                            <div class="cast-image">
+                                <img src="CAST2.webp" alt="Michael Peña">
+                            </div>
+                            <div class="cast-info">
+                                <h4>Michael Peña</h4>
+                                <p>Plays the role of a cunning villain who supports the invisible spiders' invasion. Believing that the world is better without technology, he sees the spiders' takeover as a way to "save" humanity and actively stops anyone who tries to interfere with their plan.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="collectives-tab">
+                    <div class="content-card">
+                        <h3>VEINSCROLL Collectives</h3>
+                        <div class="collectives-grid">
+                            <div class="collective-card">
+                                <h4>Posters</h4>
+                                <div class="poster-gallery">
+                                    <img src="VEINSCROLL MOVIE POSTER 1 - Jamie Seng.png" alt="VEINSCROLL Official Poster 1">
+                                    <img src="VEINSCROLL MOVIE POSTER 2 - Jamie Seng.png" alt="VEINSCROLL Official Poster 2">
+                                    <img src="VEINSCROLL MOVIE POSTER 3 - Jamie Seng.png" alt="VEINSCROLL Official Poster 3">
+                                </div>
+                            </div>
+                            <div class="collective-card">
+                                <h4>Soundtracks</h4>
+                                <div class="soundtrack-list">
+                                    <div class="soundtrack-item">
+                                        <img src="Veinscroll's Official Soundtrack VOL 1 - Jamie Seng.png" alt="VEINSCROLL Official Soundtrack Vol 1">
+                                        <div class="soundtrack-info">
+                                            <h5>VEINSCROLL'S OFFICIAL SOUNDTRACK VOL. 1</h5>
+                                            <p>OPHELIA</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="qa-tab">
+                    <div class="content-card">
+                        <h3>Q&A</h3>
+                        <div class="qa-content">
+                            <div class="qa-item">
+                                <h4>What is your monster's name?</h4>
+                                <p>Veinscroll</p>
+                            </div>
+                            <div class="qa-item">
+                                <h4>Is your monster's appearance symbolic?</h4>
+                                <p>The monster's appearance is that of a small, spider-like creature that has tiny teeth. It is translucent, so you can not see it when on glass, phones, or similar things. When it crawls onto a hand, it uses its teeth to go beneath your skin. Once inside your hand, it would wrap itself around the nerves like a web, taking control of your hand movements.</p>
+                            </div>
+                            <div class="qa-item">
+                                <h4>Does your monster have any special powers or abilities?</h4>
+                                <p>After controlling your nerves, it will send signals to your hand, which will force you to be constantly scroll, swipe, and tap on your phone. During this effect, it will distort time, making hours feel like minutes while the person is on their phone. While on your phone, it will feed on attention, making the user feel bound to their phone. It can spread through another person through shared devices or close contact, making it like a disease.</p>
+                            </div>
+                            <div class="qa-item">
+                                <h4>Does your monster have any weaknesses?</h4>
+                                <p>Its weakness is when the person puts their phone down, limiting their screen time, but it's very hard to break control over their hand. It can't survive where people are engaged in real-world activities. It loses power when the user becomes aware of its influence.</p>
+                            </div>
+                            <div class="qa-item">
+                                <h4>What is your monster's origin?</h4>
+                                <p>The monster's origin comes from a miniature meteor that crashed down on Earth. When researchers came to collect it, they discovered it was covered in translucent, spider-like creatures. They seem friendly and harmless at first, but once a researcher begins to touch them, they use their teeth to go beneath the skin of the hand, attacking the nerves. This launches into a huge pandemic, where the creatures begin to spread through their phones, tablets, or any related technology. They remain invisible to the human eye as they start to spread worldwide. Furthermore, as technology grew more advanced, "Veinscroll" evolved with it, feeding human attention and screen time.</p>
+                            </div>
+                            <div class="qa-item">
+                                <h4>What real world issue does your monster represent? How do its appearance and traits symbolize this issue? Which literary lens would you use to analyse your monster?</h4>
+                                <p>"Veinscroll," the small spider-like creature, represents the real-world issue of phone addiction and the excessive overuse of social media. Just like how people don't always notice how much time they spend on their phones, the creature goes unnoticed, blending in with screens and digital surfaces. When the creature crawls under your skin, it controls the hand, symbolizing how phone addiction can take over a person's actions without them realizing, just like doomscrolling. It also has an ability where there are glowing lines that happen under the skin, similarly to how notifications pop up on our phones. Its spider-like form shows how addiction can quietly invade daily life, controlling habits and routines before a person even notices. I would analyze this monster using a psychological lens, as my creation focuses on how technology can manipulate our attention, keeping us scrolling without stopping. "Veinscroll" illustrates how social media and smartphones are designed to capture our focus, creating habits that are difficult to break, which turns simple scrolling into a hard-to-break habit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section with Video Background -->
+    <section class="hero">
+        <div class="video-background">
+            <video autoplay muted loop playsinline>
+                <source src="Movie trailer.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="video-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">VEINSCROLL</h1>
+            <p class="hero-subtitle">it doesn't let go</p>
+            <div class="hero-buttons">
+                <button class="btn-primary">Get Tickets Now</button>
+                <button class="btn-secondary" onclick="window.open('https://drive.google.com/file/d/19WWAqlvCSqL5Tr8i2Fkak6b1lMF0gv6d/view?usp=sharing', '_blank')">Watch Trailer Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Description Section -->
+    <section id="description" class="content-section">
+        <div class="container">
+            <h2 class="section-title">Description</h2>
+            <div class="content-card">
+                <p>A chilling tale of modern horror where an invisible creature controls society through phone addiction. When a determined reporter uncovers the terrifying secret behind Veinscroll, she must risk everything to reveal the truth before it consumes humanity.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Meet the Cast Section -->
+    <section id="cast" class="content-section">
+        <div class="container">
+            <h2 class="section-title">Meet the Cast</h2>
+            <div class="cast-layout">
+                <div class="cast-image">
+                    <img src="CAST1.jpg" alt="Cailee Spaeny">
+                </div>
+                <div class="cast-info">
+                    <h3>Cailee Spaeny</h3>
+                    <p>Plays the role of a determined reporter who uncovers the terrifying secret behind Veinscroll. Brave and curious, she dives deep into the story, risking her own safety to reveal the truth about the invisible creature controlling society through phone addiction.</p>
+                </div>
+            </div>
+            <div class="cast-layout">
+                <div class="cast-image">
+                    <img src="CAST2.webp" alt="Michael Peña">
+                </div>
+                <div class="cast-info">
+                    <h3>Michael Peña</h3>
+                    <p>Plays the role of a cunning villain who supports the invisible spiders' invasion. Believing that the world is better without technology, he sees the spiders' takeover as a way to "save" humanity and actively stops anyone who tries to interfere with their plan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- VEINSCROLL Collectives Section (Hidden by default) -->
+    <section id="collectives" class="content-section hidden-section">
+        <div class="container">
+            <h2 class="section-title">VEINSCROLL Collectives</h2>
+            <div class="collectives-grid">
+                <div class="collective-card">
+                    <h3>Posters</h3>
+                    <div class="poster-gallery">
+                        <img src="VEINSCROLL MOVIE POSTER 1 - Jamie Seng.png" alt="VEINSCROLL Official Poster 1">
+                        <img src="VEINSCROLL MOVIE POSTER 2 - Jamie Seng.png" alt="VEINSCROLL Official Poster 2">
+                        <img src="VEINSCROLL MOVIE POSTER 3 - Jamie Seng.png" alt="VEINSCROLL Official Poster 3">
+                    </div>
+                </div>
+                <div class="collective-card">
+                    <h3>Soundtracks</h3>
+                    <div class="soundtrack-list">
+                        <div class="soundtrack-item">
+                            <img src="Veinscroll's Official Soundtrack VOL 1 - Jamie Seng.png" alt="VEINSCROLL Official Soundtrack Vol 1">
+                            <div class="soundtrack-info">
+                                <h4>VEINSCROLL'S OFFICIAL SOUNDTRACK VOL. 1</h4>
+                                <p>OPHELIA</p>
+                            </div>
+                        </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Q&A Section (Hidden by default) -->
+    <section id="qa" class="content-section hidden-section">
+        <div class="container">
+            <h2 class="section-title">Q&A</h2>
+            <div class="qa-content">
+                <div class="qa-item">
+                    <h3>What is your monster's name?</h3>
+                    <p>Veinscroll</p>
+                </div>
+                <div class="qa-item">
+                    <h3>Is your monster's appearance symbolic?</h3>
+                    <p>The monster's appearance is that of a small, spider-like creature that has tiny teeth. It is translucent, so you can not see it when on glass, phones, or similar things. When it crawls onto a hand, it uses its teeth to go beneath your skin. Once inside your hand, it would wrap itself around the nerves like a web, taking control of your hand movements.</p>
+                </div>
+                <div class="qa-item">
+                    <h3>Does your monster have any special powers or abilities?</h3>
+                    <p>After controlling your nerves, it will send signals to your hand, which will force you to be constantly scroll, swipe, and tap on your phone. During this effect, it will distort time, making hours feel like minutes while the person is on their phone. While on your phone, it will feed on attention, making the user feel bound to their phone. It can spread through another person through shared devices or close contact, making it like a disease.</p>
+                </div>
+                <div class="qa-item">
+                    <h3>Does your monster have any weaknesses?</h3>
+                    <p>Its weakness is when the person puts their phone down, limiting their screen time, but it's very hard to break control over their hand. It can't survive where people are engaged in real-world activities. It loses power when the user becomes aware of its influence.</p>
+                </div>
+                <div class="qa-item">
+                    <h3>What is your monster's origin?</h3>
+                    <p>The monster's origin comes from a miniature meteor that crashed down on Earth. When researchers came to collect it, they discovered it was covered in translucent, spider-like creatures. They seem friendly and harmless at first, but once a researcher begins to touch them, they use their teeth to go beneath the skin of the hand, attacking the nerves. This launches into a huge pandemic, where the creatures begin to spread through their phones, tablets, or any related technology. They remain invisible to the human eye as they start to spread worldwide. Furthermore, as technology grew more advanced, "Veinscroll" evolved with it, feeding human attention and screen time.</p>
+                </div>
+                <div class="qa-item">
+                    <h3>What real world issue does your monster represent? How do its appearance and traits symbolize this issue? Which literary lens would you use to analyse your monster?</h3>
+                    <p>"Veinscroll," the small spider-like creature, represents the real-world issue of phone addiction and the excessive overuse of social media. Just like how people don't always notice how much time they spend on their phones, the creature goes unnoticed, blending in with screens and digital surfaces. When the creature crawls under your skin, it controls the hand, symbolizing how phone addiction can take over a person's actions without them realizing, just like doomscrolling. It also has an ability where there are glowing lines that happen under the skin, similarly to how notifications pop up on our phones. Its spider-like form shows how addiction can quietly invade daily life, controlling habits and routines before a person even notices. "Veinscroll" can affect time, making hours feel like minutes without your awareness, showing how people can lose themselves in their devices. I would analyze this monster using a psychological lens, as my creation focuses on how technology can manipulate our attention, keeping us scrolling without stopping. "Veinscroll" illustrates how social media and smartphones are designed to capture our focus, creating habits that are difficult to break, which turns simple scrolling into a hard-to-break habit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
